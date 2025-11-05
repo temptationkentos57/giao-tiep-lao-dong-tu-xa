@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 
 // Định nghĩa các route khởi đầu
 app.get('/', (req, res) => {
-  res.send('Chào mừng đến với Giao Tiếp Lao Động Từ Xa!');
+  res.send('Chào mừng bạn đến với Giao Tiếp Lao Động Từ Xa! Hãy bắt đầu!');
 });
 
 app.listen(PORT, () => {
