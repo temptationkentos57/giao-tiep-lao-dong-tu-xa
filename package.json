@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "New Author Name",
+  "author": "Updated Author Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
