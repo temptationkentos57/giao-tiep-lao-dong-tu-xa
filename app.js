@@ -14,5 +14,5 @@ app.use(express.json());
 app.use('/api', routes);
 
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => app.listen(PORT, () => console.log(`Máy chủ đang chạy trên http://localhost:${PORT}`)))
+  .then(() => app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`)))
   .catch(err => console.log(err));
