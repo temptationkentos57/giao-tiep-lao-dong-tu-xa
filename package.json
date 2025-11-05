@@ -1,7 +1,7 @@
 {
   "name": "giao-tiep-lao-dong-tu-xa",
   "version": "1.0.0",
-  "description": "Giao Tiếp Lao Động Từ Xa" ,
+  "description": "Giao tiếp lao động từ xa (Remote Labor Communication)" ,
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
