@@ -13,6 +13,6 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', routes);
 
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false })
   .then(() => app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`)))
   .catch(err => console.log(err));
